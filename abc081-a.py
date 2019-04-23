@@ -5,14 +5,14 @@ import datetime
 import os
 
 
-s = input()
-count = 0
+#s = input()
+#count = 0
 
-for i in s:
-    if i == 1:
-        count = count + 1
+#for i in s:
+    #if i == 1:
+        #count = count + 1
 
-print(count)
+print(input().count("1"))
 
 
 
