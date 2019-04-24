@@ -13,10 +13,11 @@ X = int(input())
 count = 0
 
 for i in range(A+1):
-    print(count)
+    print(i)
     for j in range(B+1):
-        print(count)
+         print(j)
         for k in range(C+1):
+            print(k)
             if (500*A+100*B+50*C)==X:
                 count = count + 1
 
