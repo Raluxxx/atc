@@ -7,6 +7,7 @@ import os
 N,A,B = map(int,input().split())
 ans = 0
 
+
 for i in range(N+1):
     if A <= sum(int(k) for k in str(i)) <= B:
         ans += i
@@ -14,3 +15,8 @@ for i in range(N+1):
 print(ans)
 
 
+for i in range(N+1):
+    if A <= sum(int(k) for k in str(i)) <= B:
+        ans += i
+
+print(ans)
