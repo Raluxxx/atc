@@ -4,7 +4,7 @@ import re
 import datetime
 import os
 
-N,A,B = int(input().split())
+N,A,B = map(int,input().split())
 
 print(N)
 print(A)
