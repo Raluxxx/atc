@@ -13,10 +13,3 @@ for i in range(N+1):
         ans += i
 
 print(ans)
-
-
-for i in range(N+1):
-    if A <= sum(int(k) for k in str(i)) <= B:
-        ans += i
-
-print(ans)
