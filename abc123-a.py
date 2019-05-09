@@ -11,8 +11,12 @@ d = int(input())
 e = int(input())
 k = int(input())
 
+
+
 A = [a,b,c,d,e]
 S = sorted(A)
+
+
 
 V = (S[4] - S[0])
 if V <= k:
